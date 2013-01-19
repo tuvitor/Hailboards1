@@ -1,0 +1,3 @@
+#!/bin/sh
+sed 's/thCorner/BoardColumn/' "$@" > .tmp2 && mv .tmp2 "$@"
+sed 's/thHead/BoardColumn/' "$@" > .tmp3 && mv .tmp3 "$@"
